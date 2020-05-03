@@ -6,7 +6,7 @@ def scan(ip):
     scapy.arping(ip)
 
 
-scan("10.0.2.1")
+scan("10.0.2.1/24")
 
 
 NOTE in function scan i use my ip of router  so you can finnd the router ip by 
